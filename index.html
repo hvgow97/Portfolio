@@ -1,1 +1,94 @@
-<h1>Portfólio do Hugo</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hugo | Desenvolvedor Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>&lt; Hugo Barbosa &gt;</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Botão de modo escuro fora do header -->
+  <div class="container" style="text-align: center; margin-top: 10px;">
+    <button id="darkModeToggle">🌙 Modo Escuro</button>
+  </div>
+
+  <main>
+
+    <section id="sobre" class="container">
+      <h2>Sobre</h2>
+      <p>
+        Sou Hugo, desenvolvedor web em formação com foco em HTML, CSS, JavaScript e Java.
+        Estudante de Análise e Desenvolvimento de Sistemas e criador de projetos que unem
+        tecnologia e propósito.
+      </p>
+    </section>
+
+    <section id="projetos" class="container">
+      <h2>Projetos</h2>
+
+      <div class="filtros">
+        <button class="filtro ativo" data-tec="todos">Todos</button>
+        <button class="filtro" data-tec="html">HTML/CSS</button>
+        <button class="filtro" data-tec="js">JavaScript</button>
+        <button class="filtro" data-tec="java">Java</button>
+      </div>
+
+      <div class="grid-projetos">
+        <div class="card" data-tec="html">
+          <h3>Landing Page</h3>
+          <p>Projeto com HTML5 e CSS3.</p>
+          <a href="#">Ver projeto</a>
+        </div>
+
+        <div class="card" data-tec="js">
+          <h3>To-do List</h3>
+          <p>Gerenciador de tarefas em JavaScript puro.</p>
+          <a href="https://github.com/hvgow97" target="_blank">Ver projeto</a>
+        </div>
+
+        <div class="card" data-tec="java">
+          <h3>CRUD Java</h3>
+          <p>Sistema de cadastro com Java.</p>
+          <a href="#">Ver projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container">
+      <h2>Contatos</h2>
+      <p>
+        Você pode me encontrar nas redes sociais:
+      </p>
+      <p>
+        🐙 <a href="https://github.com/hvgow97" target="_blank">GitHub</a><br>
+        💼 <a href="https://linkedin.com/in/hugo-barbosa-44941228b/" target="_blank">LinkedIn</a><br>
+        📧 <a href="mailto:hvgow97@gmail.com">Gmail</a>
+      </p>
+      <p>
+        Estou sempre aberto a novas oportunidades e colaborações. Vamos conversar!
+      </p>
+      <address> Hugo Barbosa </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Hugo Barbosa. Desenvolvido com 💻 e um pouco de loucura.</p>
+  </footer>
+</body>
+</html>
